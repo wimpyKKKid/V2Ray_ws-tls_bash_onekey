@@ -852,7 +852,6 @@ judge_mode() {
 install_v2ray_ws_tls() {
     is_root
     check_system
-    chrony_install
     dependency_install
     basic_optimization
     domain_check
